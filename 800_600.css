@@ -1,0 +1,176 @@
+  .action-margin
+    {
+        margin-bottom: 39px !important;
+    }
+    .tab-menu-left
+    {
+        padding-left: 20px !important;
+    }
+    .tab-menu-right
+    {
+        padding-right: 20px !important;
+    }
+    .foot-close
+    {
+        padding-right: 20px !important;
+    }
+    .nav-stacked li a
+    {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+.menu-header-link
+{
+    display: none;
+}
+.tab-menu
+{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 15% !important;
+}
+.tab-menu a
+{
+    font-size: 13px !important;
+}
+.terms-cond
+{
+    width: 19% !important;
+}
+.main
+{
+    width: 8% !important;
+}
+.other
+{
+    width: 8% !important;
+}
+.costing-details
+{
+    width: 21% !important;
+}
+.sku
+{
+    width: 7.8% !important;
+}
+.safari .sku
+{
+    width: 8.2% !important;
+}
+.adjust-height
+{
+    width: 76px;
+}
+.table
+{
+    font-size: 12px !important;
+}
+.blue-band
+{
+    padding-bottom: 4px !important;
+    padding-top: 4px !important;
+}
+/*th, td
+{
+    border : 1px solid red;
+}*/
+.w-img
+{
+    width: 4%;
+}
+.w-line
+{
+    width : 7%;
+}
+.w-store
+{
+    width: 9.8%;
+}
+.w-item{
+    width: 13.5%;
+}
+.w-item-name{
+    width:24%;
+}
+.w-qty
+{
+    width: 9%;
+}
+.save-width
+{
+    padding: 5px;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+}
+.w-uom
+{
+    width: 7%;
+}
+.w-price
+{
+    width: 10%;
+}
+.w-total
+{
+    width: 1.4%;
+}
+.w-blank
+{
+    width: auto;
+}
+
+
+
+
+/* //////////////////// Mozilla Firefox ////////////////////////// */
+
+    @-moz-document url-prefix() {
+        .tab-menu
+        {
+            width: 15% !important;
+        }
+        .main
+        {
+            width: 9% !important;
+        }
+        .other
+        {
+            width: 10% !important;
+        }
+        .sku
+        {
+            width: 9%;
+        }
+        .terms-cond
+        {
+            width: 22% !important;
+        }
+        .table tbody tr td .form-group
+        {
+            margin-bottom: 0px;
+        }
+        .w-line
+        {
+            width: 7% !important;
+        }
+        .w-store
+        {
+            width: 9.5% !important;
+        }
+        .w-item
+        {
+            width: 14.2% !important;
+        }
+    }
+
+
+/* /////////////////////////// Internet Explorer //////////////////// */
+    .gecko .sku
+    {
+        width: 8% !important;
+    }
+    .gecko #th-uom-filter
+    {
+        display: none;
+    }
